@@ -1,4 +1,6 @@
 #Transformation for conversion between patient coordinates in millimeters and array coordinates
+from collections import namedtuple
+import numpy as np
 
 IrcTuple = collections.namedtuple('IrcTuple', ['index', 'row', 'col'])
 XyzTuple = collections.namedtuple('XyzTuple', ['x', 'y', 'z'])
