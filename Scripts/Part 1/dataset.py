@@ -174,10 +174,3 @@ class LunaDataset(Dataset):
 				dtype=torch.long)
 
 			return (candidate_t, pos_t, candidateInfo_tup.series_uid, torch.tensor(center_irc))
-
-
-
-	
-
-
-
