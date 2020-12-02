@@ -6,7 +6,7 @@ from collections import namedtuple
 import SimpleITK as sitk
 import torch
 from torch.utils.data import Dataset
-from util.utils import XyzTuple, xyz2irc
+from util.util import XyzTuple, xyz2irc
 from util.logconf import logging
 
 
