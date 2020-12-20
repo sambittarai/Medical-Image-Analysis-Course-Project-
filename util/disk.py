@@ -1,5 +1,4 @@
 import gzip
-
 from diskcache import FanoutCache, Disk
 from diskcache.core import BytesType, MODE_BINARY, BytesIO
 
