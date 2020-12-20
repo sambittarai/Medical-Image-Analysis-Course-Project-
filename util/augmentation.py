@@ -189,7 +189,6 @@ def randomHsvShift(image_list, h=None, s=None, v=None,
 
     return clampHsv(new_list)
 
-
 def clampHsv(image_list):
     new_list = []
     for image_hsv in image_list:
