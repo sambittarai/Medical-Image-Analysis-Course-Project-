@@ -84,7 +84,6 @@ def randomOffset(image_list, offset_rows=0.125, offset_cols=0.125):
 
     return new_list
 
-
 def randomZoom(image_list, scale=None, scale_min=0.8, scale_max=1.3):
     if scale is None:
         scale = scale_min + (scale_max - scale_min) * random.random()
