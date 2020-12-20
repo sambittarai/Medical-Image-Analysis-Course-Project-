@@ -6,7 +6,7 @@ from util.logconf import logging
 log = logging.getLogger(__name__)
 # log.setLevel(logging.WARN)
 log.setLevel(logging.INFO)
-# log.setLevel(logging.DEBUG)
+# log.setLevel(logging.DEBUG
 
 class GzipDisk(Disk):
     def store(self, value, read, key=None):
