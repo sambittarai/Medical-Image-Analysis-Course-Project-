@@ -52,7 +52,6 @@ def cropToShape(image, new_shape, center_list=None, fill=0.0):
 
     return new_image
 
-
 def zoomToShape(image, new_shape, square=True):
     # assert image.shape[-1] in {1, 3, 4}, repr(image.shape)
 
