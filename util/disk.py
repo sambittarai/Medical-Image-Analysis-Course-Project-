@@ -8,7 +8,6 @@ log = logging.getLogger(__name__)
 log.setLevel(logging.INFO)
 # log.setLevel(logging.DEBUG)
 
-
 class GzipDisk(Disk):
     def store(self, value, read, key=None):
         """
